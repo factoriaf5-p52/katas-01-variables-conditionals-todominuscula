@@ -57,14 +57,14 @@ describe('Algebra booleana', () => {
     it("Usando el operador AND (&&)", () => {
         const a = true;
         //completa la asignación de b
-        const expression = 
+        const b = true; 
         const expression = a && b;
         expect(expression).to.equal(true);
     })
     it("Usando el operador OR (||)", () => {
         const a = false;
         //completa la asignación de b
-
+        const b = false;
         const expression = a || b;
         expect(expression).to.equal(false);
     })
